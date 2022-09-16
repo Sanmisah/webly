@@ -1,7 +1,7 @@
 {
-    "name": "codeigniter4/appstarter",
+    "name": "webly/webly",
     "type": "project",
-    "description": "CodeIgniter4 starter app",
+    "description": "Webly CMS",
     "homepage": "https://codeigniter.com",
     "license": "MIT",
     "require": {
