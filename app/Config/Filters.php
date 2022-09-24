@@ -41,6 +41,7 @@ class Filters extends BaseConfig
             'toolbar',
             // 'honeypot',
             // 'secureheaders',
+            'visits' => ['except' => ['admin*']],
         ],
     ];
 

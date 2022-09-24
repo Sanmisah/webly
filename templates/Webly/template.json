@@ -1,0 +1,12 @@
+[
+    {
+        "image-size": 
+            {
+                "logo": "200x200",
+                "banner": "1900x600",
+                "page_featured_image": "600x200",
+                "blog_featured_image": "600x300"
+            }    
+        
+    }
+]

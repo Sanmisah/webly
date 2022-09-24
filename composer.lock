@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "667155d5d1a76bec2c6ef608b3646193",
+    "content-hash": "787025cf65527d618edbc6b9336e2769",
     "packages": [
         {
             "name": "codeigniter4/framework",
@@ -143,12 +143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/shield.git",
-                "reference": "94dc77354b9cf52ebbf9c986ec236bf58d705ee6"
+                "reference": "9b889b351bbb424597e9f46292a3e6ce24cf71a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/shield/zipball/94dc77354b9cf52ebbf9c986ec236bf58d705ee6",
-                "reference": "94dc77354b9cf52ebbf9c986ec236bf58d705ee6",
+                "url": "https://api.github.com/repos/codeigniter4/shield/zipball/9b889b351bbb424597e9f46292a3e6ce24cf71a1",
+                "reference": "9b889b351bbb424597e9f46292a3e6ce24cf71a1",
                 "shasum": ""
             },
             "require": {
@@ -203,20 +203,20 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/shield"
             },
-            "time": "2022-09-16T03:11:56+00:00"
+            "time": "2022-09-22T02:08:19+00:00"
         },
         {
             "name": "kint-php/kint",
-            "version": "4.2.0",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kint-php/kint.git",
-                "reference": "0518ee9e1b5b3c7bbf3c9ad837a6591e39dbfab0"
+                "reference": "31e9bfa901dd8ad793a1de88ca5144819783e4b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kint-php/kint/zipball/0518ee9e1b5b3c7bbf3c9ad837a6591e39dbfab0",
-                "reference": "0518ee9e1b5b3c7bbf3c9ad837a6591e39dbfab0",
+                "url": "https://api.github.com/repos/kint-php/kint/zipball/31e9bfa901dd8ad793a1de88ca5144819783e4b6",
+                "reference": "31e9bfa901dd8ad793a1de88ca5144819783e4b6",
                 "shasum": ""
             },
             "require": {
@@ -266,9 +266,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kint-php/kint/issues",
-                "source": "https://github.com/kint-php/kint/tree/4.2.0"
+                "source": "https://github.com/kint-php/kint/tree/4.2.1"
             },
-            "time": "2022-08-27T12:15:40+00:00"
+            "time": "2022-09-22T06:35:32+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -455,22 +455,23 @@
         },
         {
             "name": "webly/core",
-            "version": "1.0.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sanmisah/webly-core.git",
-                "reference": "49f851acd964cc9c7f1dc34dd196c902b39a7c40"
+                "reference": "c94f71733b83b58469fe30cf0936c0f3dac21dbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sanmisah/webly-core/zipball/49f851acd964cc9c7f1dc34dd196c902b39a7c40",
-                "reference": "49f851acd964cc9c7f1dc34dd196c902b39a7c40",
+                "url": "https://api.github.com/repos/Sanmisah/webly-core/zipball/c94f71733b83b58469fe30cf0936c0f3dac21dbf",
+                "reference": "c94f71733b83b58469fe30cf0936c0f3dac21dbf",
                 "shasum": ""
             },
             "require": {
                 "codeigniter4/shield": "dev-develop",
                 "tatter/visits": "^v2.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -490,9 +491,9 @@
             "description": "Webly Core Plugin",
             "support": {
                 "issues": "https://github.com/Sanmisah/webly-core/issues",
-                "source": "https://github.com/Sanmisah/webly-core/tree/1.0.0"
+                "source": "https://github.com/Sanmisah/webly-core/tree/main"
             },
-            "time": "2022-09-16T11:50:20+00:00"
+            "time": "2022-09-24T06:13:28+00:00"
         }
     ],
     "packages-dev": [
@@ -2463,7 +2464,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "webly/core": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
