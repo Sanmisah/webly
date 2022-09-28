@@ -6,11 +6,11 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header"><?= $title ?></h1>
+                <h1 class="page-header"><?= $title ?> <?= $category ? " - " . $category->category : ''  ?></h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="/">Home</a>
                     </li>
-                    <li class="active">Blog Home One</li>
+                    <li class="active">Blog</li>
                 </ol>
             </div>
         </div>
@@ -26,9 +26,9 @@
                     <a href="<?= $post->url ?>"><?= $post->title ?></a>
                 </h2>
                 <p class="lead">
-                    by <a href="index.php"><?= $post->author ?></a>
+                    by <a href="#"><?= $post->author ?></a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> Posted on <?= $post->published_on ?> | in <a href="index.php"><?= $post->category ?></a></p>
+                <p><i class="fa fa-clock-o"></i> Posted on <?= $post->published_on ?> | in <a href="<?= $post->category_url ?>"><?= $post->category ?></a></p>
                 <hr>
                 <a href="<?= $post->url ?>">
                     <?= img(['src' => $post->featured_image, 'class' => 'img-responsive']) ?>

@@ -58,8 +58,11 @@ class AuthGroups extends ShieldAuthGroups
     public array $permissions = [
         'admin.dashboard'       => 'Can access the Dashboard',
         'admin.blocks'          => 'Can access the Blocks',
+        'admin.banners'         => 'Can access the Banners',
         'admin.pages'           => 'Can access the Pages',
         'admin.menus'           => 'Can access the Menus',
+        'admin.blogs'           => 'Can access the Blog',
+        'admin.forms'           => 'Can access the Forms',
         'admin.settings'        => 'Can access the main site settings',
         'admin.users'           => 'Can access the Users',
     ];
@@ -74,16 +77,21 @@ class AuthGroups extends ShieldAuthGroups
         'admin' => [
             'admin.dashboard',
             'admin.blocks',
+            'admin.banners',
             'admin.pages',
             'admin.menus',
+            'admin.blogs',
+            'admin.forms',
             'admin.settings',
             'admin.users',
         ],
         'editor' => [
             'admin.dashboard',
+            'admin.blocks',
+            'admin.banners',
             'admin.pages',
-            'admin.settings',
-            'admin.users',            
+            'admin.menus',
+            'admin.blogs',
         ],
         'user' => [],
         'beta' => [

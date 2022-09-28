@@ -9,7 +9,7 @@
             <div class="col-lg-12">
                 <h1 class="page-header"><?= $page->title ?></h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="/">Home</a>
                     </li>
                     <li class="active">About</li>
                 </ol>
@@ -24,13 +24,15 @@
             </div>
             <div class="col-md-6">
                 <?= $this->include('Webly\Core\Views\Elements\flash') ?>
-                <form action="/form" method="post">
+                <form action="http://localhost:8080/form/contact-us" method="post">
                 <?= csrf_field() ?>
                 <?php $validation =  \Config\Services::validation(); ?>
                 <input name="name" placeholder="name" value="<?= old('name') ?>" />
                 <span class="help-block"><?= validation_error('name') ?></span>
                 <input name="email" placeholder="email" value="<?= old('email') ?>" />
                 <span class="help-block"><?= validation_error('email') ?></span>
+                <input name="mobile" placeholder="mobile" value="<?= old('mobile') ?>" />
+                <span class="help-block"><?= validation_error('mobile') ?></span>
                 <input type="submit" />
                 </form>
 

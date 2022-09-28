@@ -9,7 +9,7 @@
             <div class="col-lg-12">
                 <h1 class="page-header"><?= $post->title ?></h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="#">Home</a>
                     </li>
                     <li class="active">About</li>
                 </ol>
@@ -28,7 +28,7 @@
                 <hr>
 
                 <!-- Date/Time -->
-                <p><i class="fa fa-clock-o"></i> Posted on <?= $post->published_on ?> | in <a href="index.php"><?= $post->category ?></a></p>
+                <p><i class="fa fa-clock-o"></i> Posted on <?= $post->published_on ?> | in <a href="<?= $post->category_url ?>"><?= $post->category ?></a></p>
 
                 <hr>
 

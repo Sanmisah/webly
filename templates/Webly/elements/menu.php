@@ -26,14 +26,15 @@
     $str = '';
     foreach($menu as $item) {
         $active = strpos($path, $item->slug) === 0 ? 'active' : '';
-        $item->slug = $item->slug == "/" ? '' : $item->slug;
+        $item->slug = $item->slug == "/" ? '/' : "/{$item->slug}";
+        $item->slug = $item->slug == "/#" ? "#" : $item->slug;
         if(!$item->children) {
             $str .= "<li class='{$active}'>";
-            $str .= "<a href='/{$item->slug}'>{$item->value}</a>";
+            $str .= "<a href='{$item->slug}'>{$item->value}</a>";
             $str .= "</li>";   
         } else {
             $str .= "<li class='dropdown {$active}'>";
-            $str .= "<a href='/{$item->slug}' class='dropdown-toggle' data-toggle='dropdown'>{$item->value}<b class='caret'></b></a>";
+            $str .= "<a href='{$item->slug}' class='dropdown-toggle' data-toggle='dropdown'>{$item->value}<b class='caret'></b></a>";
             getChildren($item->children, $str);
             $str .= "</li>";   
         }
