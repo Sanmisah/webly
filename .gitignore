@@ -57,8 +57,8 @@ writable/logs/*
 writable/session/*
 !writable/session/index.html
 
-writable/uploads/*
-!writable/uploads/index.html
+# writable/uploads/*
+# !writable/uploads/index.html
 
 writable/debugbar/*
 
@@ -103,7 +103,7 @@ _modules/*
 nbproject/
 build/
 nbbuild/
-dist/
+# dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
