@@ -62,6 +62,7 @@ class AuthGroups extends ShieldAuthGroups
         'admin.pages'           => 'Can access the Pages',
         'admin.menus'           => 'Can access the Menus',
         'admin.blogs'           => 'Can access the Blog',
+        'admin.gallery'           => 'Can access the Gallery',
         'admin.forms'           => 'Can access the Forms',
         'admin.settings'        => 'Can access the main site settings',
         'admin.users'           => 'Can access the Users',
@@ -81,6 +82,7 @@ class AuthGroups extends ShieldAuthGroups
             'admin.pages',
             'admin.menus',
             'admin.blogs',
+            'admin.gallery',
             'admin.forms',
             'admin.settings',
             'admin.users',
@@ -92,6 +94,7 @@ class AuthGroups extends ShieldAuthGroups
             'admin.pages',
             'admin.menus',
             'admin.blogs',
+            'admin.gallery',
         ],
         'user' => [],
         'beta' => [

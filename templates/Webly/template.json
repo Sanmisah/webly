@@ -4,8 +4,10 @@
             {
                 "logo": "200x200",
                 "banner": "1900x600",
-                "page_featured_image": "600x200",
-                "blog_featured_image": "600x300"
+                "page_featured_image": "750x450",
+                "blog_featured_image": "750x450",
+                "gallery_category_thumbnail": "300x300",
+                "album_thumbnail": "300x300"
             }    
         
     }
