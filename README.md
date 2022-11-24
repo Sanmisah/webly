@@ -28,3 +28,10 @@ To run Webly CMS
 php spark serve
 ```
 
+## Updation
+```
+git pull
+
+composer update
+```
+
