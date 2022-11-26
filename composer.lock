@@ -148,12 +148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/shield.git",
-                "reference": "579e0a2074e0eeb0dd728ced04d7f6db5ed046e6"
+                "reference": "b1bffb4ecbe3d9df2b37c3287e57cca74f94c839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/shield/zipball/579e0a2074e0eeb0dd728ced04d7f6db5ed046e6",
-                "reference": "579e0a2074e0eeb0dd728ced04d7f6db5ed046e6",
+                "url": "https://api.github.com/repos/codeigniter4/shield/zipball/b1bffb4ecbe3d9df2b37c3287e57cca74f94c839",
+                "reference": "b1bffb4ecbe3d9df2b37c3287e57cca74f94c839",
                 "shasum": ""
             },
             "require": {
@@ -208,7 +208,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/shield"
             },
-            "time": "2022-11-21T16:21:47+00:00"
+            "time": "2022-11-25T21:31:19+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -464,12 +464,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sanmisah/webly-core.git",
-                "reference": "d2b246f2369d5f1746c7065377fcd30b5e169cca"
+                "reference": "22f989c30b7074ff760927714d95b9fdbb7a33d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sanmisah/webly-core/zipball/d2b246f2369d5f1746c7065377fcd30b5e169cca",
-                "reference": "d2b246f2369d5f1746c7065377fcd30b5e169cca",
+                "url": "https://api.github.com/repos/Sanmisah/webly-core/zipball/22f989c30b7074ff760927714d95b9fdbb7a33d4",
+                "reference": "22f989c30b7074ff760927714d95b9fdbb7a33d4",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
                 "issues": "https://github.com/Sanmisah/webly-core/issues",
                 "source": "https://github.com/Sanmisah/webly-core/tree/main"
             },
-            "time": "2022-11-24T07:05:05+00:00"
+            "time": "2022-11-26T08:36:12+00:00"
         }
     ],
     "packages-dev": [
