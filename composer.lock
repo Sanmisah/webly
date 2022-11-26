@@ -464,12 +464,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sanmisah/webly-core.git",
-                "reference": "22f989c30b7074ff760927714d95b9fdbb7a33d4"
+                "reference": "b89ee0edf306b0ae4988ea8e6fa4694d356ce5f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sanmisah/webly-core/zipball/22f989c30b7074ff760927714d95b9fdbb7a33d4",
-                "reference": "22f989c30b7074ff760927714d95b9fdbb7a33d4",
+                "url": "https://api.github.com/repos/Sanmisah/webly-core/zipball/b89ee0edf306b0ae4988ea8e6fa4694d356ce5f9",
+                "reference": "b89ee0edf306b0ae4988ea8e6fa4694d356ce5f9",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
                 "issues": "https://github.com/Sanmisah/webly-core/issues",
                 "source": "https://github.com/Sanmisah/webly-core/tree/main"
             },
-            "time": "2022-11-26T08:36:12+00:00"
+            "time": "2022-11-26T09:03:20+00:00"
         }
     ],
     "packages-dev": [
