@@ -1,8 +1,8 @@
-    <?= $this->include('Webly/elements/header') ?>
+    <?= $this->include('Webly2/elements/header') ?>
 
-    <?= $this->include('Webly/elements/menu') ?>
+    <?= $this->include('Webly2/elements/menu') ?>
 
-    <?= $this->include('Webly/elements/banners') ?>
+    <?= $this->include('Webly2/elements/banners') ?>
 
 
     <!-- Page Content -->
@@ -34,15 +34,15 @@
 
         <hr>
 
-        <?= $this->include('Webly/elements/footer') ?>
+        <?= $this->include('Webly2/elements/footer') ?>
     </div>
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="/templates/Webly/js/jquery.js"></script>
+    <script src="/templates/Webly2/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/templates/Webly/js/bootstrap.min.js"></script>
+    <script src="/templates/Webly2/js/bootstrap.min.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>

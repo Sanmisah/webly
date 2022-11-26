@@ -97,7 +97,7 @@ $config = array(
     | with start and final /
     |
     */
-    'upload_dir' => '/writable/uploads/images/',
+    'upload_dir' => '/uploads/images/',
     /*
     |--------------------------------------------------------------------------
     | relative path from filemanager folder to upload folder
@@ -106,7 +106,7 @@ $config = array(
     | with final /
     |
     */
-    'current_path' => '../writable/uploads/images/',
+    'current_path' => '../uploads/images/',
 
     /*
     |--------------------------------------------------------------------------
@@ -117,7 +117,7 @@ $config = array(
     | DO NOT put inside upload folder
     |
     */
-    'thumbs_base_path' => '../writable/uploads/thumbs/',
+    'thumbs_base_path' => '../uploads/thumbs/',
 
     /*
     |--------------------------------------------------------------------------
@@ -128,7 +128,7 @@ $config = array(
     | DO NOT put inside upload folder
     |
     */
-    'thumbs_upload_dir' => '/writable/uploads/thumbs/',
+    'thumbs_upload_dir' => '/uploads/thumbs/',
 
 
     /*
