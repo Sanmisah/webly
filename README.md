@@ -6,7 +6,7 @@ Custom made CMS made by Sanmisha with Love
 ## Installation Steps
 
 ```
-git clone https://github.com/Sanmisah/webly.git <your_website_folder>
+composer create-project webly/webly <your_website_folder>
 
 composer update
 ```
