@@ -23,15 +23,18 @@
             </div>
             <div class="col-md-6">
                 <?= $this->include('Webly\Core\Views\Elements\flash') ?>
-                <form action="/form/contact-us" method="post">
+                <form action="/form/contact-us" method="post" enctype="multipart/form-data">
                     <?= csrf_field() ?>
                     <?php $validation =  \Config\Services::validation(); ?>
                     <input name="name" placeholder="name" value="<?= old('name') ?>" />
-                    <span class="help-block"><?= validation_error('name') ?></span>
+                    <span class="help-block"><?= validation_show_error('name') ?></span>
                     <input name="email" placeholder="email" value="<?= old('email') ?>" />
-                    <span class="help-block"><?= validation_error('email') ?></span>
+                    <span class="help-block"><?= validation_show_error('email') ?></span>
                     <input name="mobile" placeholder="mobile" value="<?= old('mobile') ?>" />
-                    <span class="help-block"><?= validation_error('mobile') ?></span>
+                    <span class="help-block"><?= validation_show_error('mobile') ?></span>
+                    <input type="file" name="file" placeholder="file" value="<?= old('file') ?>" />
+                    <span class="help-block"><?= validation_show_error('file') ?></span>   
+                                     
                     <input type="submit" />
                 </form>
             </div>
