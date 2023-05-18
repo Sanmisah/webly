@@ -91,7 +91,7 @@ class Validation extends BaseConfig
         ],        
         'email' => [
             'label' =>  'Auth.email',
-            'rules' => 'required|max_length[254]|valid_email|is_unique[auth_identities.secret, id, {id}]',
+            'rules' => 'required|max_length[254]|valid_email|is_unique[auth_identities.secret, user_id, {id}]',
         ],
         'password' => [
             'label' =>  'Auth.password',

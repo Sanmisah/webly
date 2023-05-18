@@ -31,19 +31,7 @@ class AuthGroups extends ShieldAuthGroups
         'editor' => [
             'title'       => 'Editor',
             'description' => 'Day to day administrators of the site.',
-        ],
-        'developer' => [
-            'title'       => 'Developer',
-            'description' => 'Site programmers.',
-        ],
-        'user' => [
-            'title'       => 'User',
-            'description' => 'General users of the site. Often customers.',
-        ],
-        'beta' => [
-            'title'       => 'Beta User',
-            'description' => 'Has access to beta-level features.',
-        ],
+        ]
     ];
 
     /**
@@ -95,10 +83,6 @@ class AuthGroups extends ShieldAuthGroups
             'admin.menus',
             'admin.blogs',
             'admin.gallery',
-        ],
-        'user' => [],
-        'beta' => [
-            'beta.access',
-        ],
+        ]
     ];
 }
