@@ -7,7 +7,8 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "codeigniter4/framework": "^4.0",
-        "webly/core": "dev-main"
+        "webly/core": "dev-main",
+        "symfony/polyfill": "^1.27"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
