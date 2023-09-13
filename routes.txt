@@ -1,0 +1,106 @@
+
+CodeIgniter v4.4.1 Command Line Tool - Server Time: 2023-09-13 16:34:27 UTC+05:30
+
++--------+---------------------------------------------+-------------------+----------------------------------------------------------------------+----------------+-----------------------+
+| Method | Route                                       | Name              | Handler                                                              | Before Filters | After Filters         |
++--------+---------------------------------------------+-------------------+----------------------------------------------------------------------+----------------+-----------------------+
+| GET    | admin/register                              | »                 | \CodeIgniter\Shield\Controllers\RegisterController::registerView     |                | toolbar               |
+| GET    | admin                                       | login             | \CodeIgniter\Shield\Controllers\LoginController::loginView           |                | toolbar               |
+| GET    | admin/login/magic-link                      | magic-link        | \CodeIgniter\Shield\Controllers\MagicLinkController::loginView       |                | toolbar               |
+| GET    | admin/login/verify-magic-link               | verify-magic-link | \CodeIgniter\Shield\Controllers\MagicLinkController::verify          |                | toolbar               |
+| GET    | admin/logout                                | »                 | \CodeIgniter\Shield\Controllers\LoginController::logoutAction        |                | toolbar               |
+| GET    | admin/auth/a/show                           | »                 | \CodeIgniter\Shield\Controllers\ActionController::show               |                | toolbar               |
+| GET    | admin/dashboard                             | »                 | \Webly\Core\Controllers\Admin\DashboardController::index             | permission     | permission toolbar    |
+| GET    | admin/blocks                                | »                 | \Webly\Core\Controllers\Admin\BlocksController::index                | permission     | permission toolbar    |
+| GET    | admin/blocks/create                         | »                 | \Webly\Core\Controllers\Admin\BlocksController::create               | permission     | permission toolbar    |
+| GET    | admin/blocks/update/([0-9]+)                | »                 | \Webly\Core\Controllers\Admin\BlocksController::update/$1            | permission     | permission toolbar    |
+| GET    | admin/blocks/delete/([0-9]+)                | »                 | \Webly\Core\Controllers\Admin\BlocksController::delete/$1            | permission     | permission toolbar    |
+| GET    | admin/banners                               | »                 | \Webly\Core\Controllers\Admin\BannersController::index               | permission     | permission toolbar    |
+| GET    | admin/banners/create                        | »                 | \Webly\Core\Controllers\Admin\BannersController::create              | permission     | permission toolbar    |
+| GET    | admin/banners/update/([0-9]+)               | »                 | \Webly\Core\Controllers\Admin\BannersController::update/$1           | permission     | permission toolbar    |
+| GET    | admin/banners/delete/([0-9]+)               | »                 | \Webly\Core\Controllers\Admin\BannersController::delete/$1           | permission     | permission toolbar    |
+| GET    | admin/pages                                 | »                 | \Webly\Core\Controllers\Admin\PagesController::index                 | permission     | permission toolbar    |
+| GET    | admin/pages/create                          | »                 | \Webly\Core\Controllers\Admin\PagesController::create                | permission     | permission toolbar    |
+| GET    | admin/pages/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\PagesController::update/$1             | permission     | permission toolbar    |
+| GET    | admin/pages/delete/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\PagesController::delete/$1             | permission     | permission toolbar    |
+| GET    | admin/menus                                 | »                 | \Webly\Core\Controllers\Admin\MenusController::index                 | permission     | permission toolbar    |
+| GET    | admin/menus/create                          | »                 | \Webly\Core\Controllers\Admin\MenusController::create                | permission     | permission toolbar    |
+| GET    | admin/menus/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\MenusController::update/$1             | permission     | permission toolbar    |
+| GET    | admin/menus/delete/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\MenusController::delete/$1             | permission     | permission toolbar    |
+| GET    | admin/blog-categories                       | »                 | \Webly\Core\Controllers\Admin\BlogCategoriesController::index        | permission     | permission toolbar    |
+| GET    | admin/blog-categories/create                | »                 | \Webly\Core\Controllers\Admin\BlogCategoriesController::create       | permission     | permission toolbar    |
+| GET    | admin/blog-categories/update/([0-9]+)       | »                 | \Webly\Core\Controllers\Admin\BlogCategoriesController::update/$1    | permission     | permission toolbar    |
+| GET    | admin/blog-categories/delete/([0-9]+)       | »                 | \Webly\Core\Controllers\Admin\BlogCategoriesController::delete/$1    | permission     | permission toolbar    |
+| GET    | admin/blog-posts                            | »                 | \Webly\Core\Controllers\Admin\BlogPostsController::index             | permission     | permission toolbar    |
+| GET    | admin/blog-posts/create                     | »                 | \Webly\Core\Controllers\Admin\BlogPostsController::create            | permission     | permission toolbar    |
+| GET    | admin/blog-posts/update/([0-9]+)            | »                 | \Webly\Core\Controllers\Admin\BlogPostsController::update/$1         | permission     | permission toolbar    |
+| GET    | admin/blog-posts/delete/([0-9]+)            | »                 | \Webly\Core\Controllers\Admin\BlogPostsController::delete/$1         | permission     | permission toolbar    |
+| GET    | admin/gallery-categories                    | »                 | \Webly\Core\Controllers\Admin\GalleryCategoriesController::index     | permission     | permission toolbar    |
+| GET    | admin/gallery-categories/create             | »                 | \Webly\Core\Controllers\Admin\GalleryCategoriesController::create    | permission     | permission toolbar    |
+| GET    | admin/gallery-categories/update/([0-9]+)    | »                 | \Webly\Core\Controllers\Admin\GalleryCategoriesController::update/$1 | permission     | permission toolbar    |
+| GET    | admin/gallery-categories/delete/([0-9]+)    | »                 | \Webly\Core\Controllers\Admin\GalleryCategoriesController::delete/$1 | permission     | permission toolbar    |
+| GET    | admin/albums                                | »                 | \Webly\Core\Controllers\Admin\AlbumsController::index                | permission     | permission toolbar    |
+| GET    | admin/albums/create                         | »                 | \Webly\Core\Controllers\Admin\AlbumsController::create               | permission     | permission toolbar    |
+| GET    | admin/albums/update/([0-9]+)                | »                 | \Webly\Core\Controllers\Admin\AlbumsController::update/$1            | permission     | permission toolbar    |
+| GET    | admin/albums/delete/([0-9]+)                | »                 | \Webly\Core\Controllers\Admin\AlbumsController::delete/$1            | permission     | permission toolbar    |
+| GET    | admin/albums/delete_image/([0-9]+)/([0-9]+) | »                 | \Webly\Core\Controllers\Admin\AlbumsController::delete_image/$1/$2   | permission     | permission toolbar    |
+| GET    | admin/forms                                 | »                 | \Webly\Core\Controllers\Admin\FormsController::index                 | permission     | permission toolbar    |
+| GET    | admin/forms/create                          | »                 | \Webly\Core\Controllers\Admin\FormsController::create                | permission     | permission toolbar    |
+| GET    | admin/forms/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\FormsController::update/$1             | permission     | permission toolbar    |
+| GET    | admin/forms/data/([0-9]+)                   | »                 | \Webly\Core\Controllers\Admin\FormsController::showData/$1           | permission     | permission toolbar    |
+| GET    | admin/forms/export/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\FormsController::exportData/$1         | permission     | permission toolbar    |
+| GET    | admin/forms/delete/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\FormsController::delete/$1             | permission     | permission toolbar    |
+| GET    | admin/users                                 | »                 | \Webly\Core\Controllers\Admin\UsersController::index                 | permission     | permission toolbar    |
+| GET    | admin/users/create                          | »                 | \Webly\Core\Controllers\Admin\UsersController::create                | permission     | permission toolbar    |
+| GET    | admin/users/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\UsersController::update/$1             | permission     | permission toolbar    |
+| GET    | admin/users/delete/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\UsersController::delete/$1             | permission     | permission toolbar    |
+| GET    | admin/settings                              | »                 | \Webly\Core\Controllers\Admin\SettingsController::update             | permission     | permission toolbar    |
+| GET    | search                                      | »                 | \Webly\Core\Controllers\SearchController::index                      | visits         | visits visits toolbar |
+| GET    | /                                           | »                 | \Webly\Core\Controllers\PagesController::display/1                   | visits         | visits visits toolbar |
+| GET    | about                                       | »                 | \Webly\Core\Controllers\PagesController::display/2                   | visits         | visits visits toolbar |
+| GET    | about/mission                               | »                 | \Webly\Core\Controllers\PagesController::display/3                   | visits         | visits visits toolbar |
+| GET    | about/vision                                | »                 | \Webly\Core\Controllers\PagesController::display/4                   | visits         | visits visits toolbar |
+| GET    | blog                                        | »                 | \Webly\Core\Controllers\BlogController::index                        | visits         | visits visits toolbar |
+| GET    | contact-us                                  | »                 | \Webly\Core\Controllers\PagesController::display/5                   | visits         | visits visits toolbar |
+| GET    | test                                        | »                 | \Webly\Core\Controllers\PagesController::display/6                   | visits         | visits visits toolbar |
+| GET    | blog/first-category                         | »                 | \Webly\Core\Controllers\BlogController::index/1                      | visits         | visits visits toolbar |
+| GET    | blog/first-category/first-post              | »                 | \Webly\Core\Controllers\BlogController::display/1                    | visits         | visits visits toolbar |
+| GET    | gallery                                     | »                 | \Webly\Core\Controllers\GalleryController::categories                | visits         | visits visits toolbar |
+| GET    | gallery/sports                              | »                 | \Webly\Core\Controllers\GalleryController::albums/1                  | visits         | visits visits toolbar |
+| GET    | gallery/sports/bicycle                      | »                 | \Webly\Core\Controllers\GalleryController::display_albums/1          | visits         | visits visits toolbar |
+| GET    | gallery/sports/babies                       | »                 | \Webly\Core\Controllers\GalleryController::display_albums/2          | visits         | visits visits toolbar |
+| POST   | admin/register                              | »                 | \CodeIgniter\Shield\Controllers\RegisterController::registerAction   |                | toolbar               |
+| POST   | admin                                       | »                 | \CodeIgniter\Shield\Controllers\LoginController::loginAction         |                | toolbar               |
+| POST   | admin/login/magic-link                      | »                 | \CodeIgniter\Shield\Controllers\MagicLinkController::loginAction     |                | toolbar               |
+| POST   | admin/auth/a/handle                         | »                 | \CodeIgniter\Shield\Controllers\ActionController::handle             |                | toolbar               |
+| POST   | admin/auth/a/verify                         | »                 | \CodeIgniter\Shield\Controllers\ActionController::verify             |                | toolbar               |
+| POST   | admin/blocks/create                         | »                 | \Webly\Core\Controllers\Admin\BlocksController::create               | permission     | permission toolbar    |
+| POST   | admin/blocks/update/([0-9]+)                | »                 | \Webly\Core\Controllers\Admin\BlocksController::update/$1            | permission     | permission toolbar    |
+| POST   | admin/banners/sort                          | »                 | \Webly\Core\Controllers\Admin\BannersController::sort                | permission     | permission toolbar    |
+| POST   | admin/banners/create                        | »                 | \Webly\Core\Controllers\Admin\BannersController::create              | permission     | permission toolbar    |
+| POST   | admin/banners/update/([0-9]+)               | »                 | \Webly\Core\Controllers\Admin\BannersController::update/$1           | permission     | permission toolbar    |
+| POST   | admin/pages/create                          | »                 | \Webly\Core\Controllers\Admin\PagesController::create                | permission     | permission toolbar    |
+| POST   | admin/pages/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\PagesController::update/$1             | permission     | permission toolbar    |
+| POST   | admin/menus/create                          | »                 | \Webly\Core\Controllers\Admin\MenusController::create                | permission     | permission toolbar    |
+| POST   | admin/menus/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\MenusController::update/$1             | permission     | permission toolbar    |
+| POST   | admin/blog-categories/create                | »                 | \Webly\Core\Controllers\Admin\BlogCategoriesController::create       | permission     | permission toolbar    |
+| POST   | admin/blog-categories/update/([0-9]+)       | »                 | \Webly\Core\Controllers\Admin\BlogCategoriesController::update/$1    | permission     | permission toolbar    |
+| POST   | admin/blog-posts/create                     | »                 | \Webly\Core\Controllers\Admin\BlogPostsController::create            | permission     | permission toolbar    |
+| POST   | admin/blog-posts/update/([0-9]+)            | »                 | \Webly\Core\Controllers\Admin\BlogPostsController::update/$1         | permission     | permission toolbar    |
+| POST   | admin/gallery-categories/sort               | »                 | \Webly\Core\Controllers\Admin\GalleryCategoriesController::sort      | permission     | permission toolbar    |
+| POST   | admin/gallery-categories/create             | »                 | \Webly\Core\Controllers\Admin\GalleryCategoriesController::create    | permission     | permission toolbar    |
+| POST   | admin/gallery-categories/update/([0-9]+)    | »                 | \Webly\Core\Controllers\Admin\GalleryCategoriesController::update/$1 | permission     | permission toolbar    |
+| POST   | admin/albums/sort                           | »                 | \Webly\Core\Controllers\Admin\AlbumsController::sort                 | permission     | permission toolbar    |
+| POST   | admin/albums/image_sort                     | »                 | \Webly\Core\Controllers\Admin\AlbumsController::image_sort           | permission     | permission toolbar    |
+| POST   | admin/albums/create                         | »                 | \Webly\Core\Controllers\Admin\AlbumsController::create               | permission     | permission toolbar    |
+| POST   | admin/albums/update/([0-9]+)                | »                 | \Webly\Core\Controllers\Admin\AlbumsController::update/$1            | permission     | permission toolbar    |
+| POST   | admin/albums/upload                         | »                 | \Webly\Core\Controllers\Admin\AlbumsController::upload               | permission     | permission toolbar    |
+| POST   | admin/forms/create                          | »                 | \Webly\Core\Controllers\Admin\FormsController::create                | permission     | permission toolbar    |
+| POST   | admin/forms/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\FormsController::update/$1             | permission     | permission toolbar    |
+| POST   | admin/users/create                          | »                 | \Webly\Core\Controllers\Admin\UsersController::create                | permission     | permission toolbar    |
+| POST   | admin/users/update/([0-9]+)                 | »                 | \Webly\Core\Controllers\Admin\UsersController::update/$1             | permission     | permission toolbar    |
+| POST   | admin/settings                              | »                 | \Webly\Core\Controllers\Admin\SettingsController::update             | permission     | permission toolbar    |
+| POST   | search                                      | »                 | \Webly\Core\Controllers\SearchController::index                      | visits         | visits visits toolbar |
+| POST   | form/contact-us                             | »                 | \Webly\Core\Controllers\FormsController::form/contact-us             | visits         | visits visits toolbar |
++--------+---------------------------------------------+-------------------+----------------------------------------------------------------------+----------------+-----------------------+
+
