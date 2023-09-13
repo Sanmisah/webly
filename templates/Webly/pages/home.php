@@ -20,7 +20,7 @@
         <!-- /.row -->
 
         <!-- Features Section -->
-        <?= $blocks['features'] ?>
+        <?= isset($blocks['features']) ?? $blocks['features'] ?>
         <!-- /.row -->
 
         <hr>
@@ -28,7 +28,7 @@
         <!-- Call to Action Section -->
         <div class="well">
             <div class="row">
-                <?= $blocks['action'] ?>
+                <?= isset($blocks['action']) ?? $blocks['action'] ?>
             </div>
         </div>
 
