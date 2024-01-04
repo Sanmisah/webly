@@ -4,7 +4,7 @@
     $menu = service('webly')->getMenu('Main Menu');
     
     function getChildren($items, &$str) {
-        $path = \Config\Services::request()->getUri()->getPath();
+        $path = \Config\Services::request()->getUri()->getRoutePath();
 
         if(!empty($items)) {
             $str .= "<ul class='dropdown-menu'>";
@@ -22,7 +22,8 @@
         }
     }
 
-    $path = \Config\Services::request()->getUri()->getPath();
+    $path = \Config\Services::request()->getUri()->getRoutePath();
+    $path = empty($path) ? '/' : $path;
     $str = '';
     foreach($menu as $item) {
         $active = strpos($path, $item->slug) === 0 ? 'active' : '';
